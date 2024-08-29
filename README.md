@@ -126,10 +126,6 @@ The frontend is styled with **CSS3** and includes responsive design to ensure us
 ### State Management
 React's **useState** and **useEffect** hooks are used for managing component state and side effects.
 
-## Feedback and Contributions
-
-We welcome any feedback or contributions to improve this project. Please feel free to create issues or pull requests.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
