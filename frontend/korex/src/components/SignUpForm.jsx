@@ -16,7 +16,7 @@ const SignUpForm = ({ onClose, onAddUser }) => {
         setErrors(newErrors);
 
         if (Object.keys(newErrors).length === 0) {
-            axios.post('http://localhost:5000/api/users', { firstName, lastName, email, password })
+            axios.post('https://knorex-1.onrender.com/api/users', { firstName, lastName, email, password })
                 .then(response => {
                     onAddUser(response.data);
                     onClose();
