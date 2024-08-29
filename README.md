@@ -5,6 +5,9 @@ This is a simple web application for managing users. The application allows you 
  ## Backend deployed link
  https://knorex-1.onrender.com
 
+ ## fronend backend link
+ https://knorex-iota.vercel.app/
+
 
 ## Table of Contents
 
@@ -50,19 +53,8 @@ This is a simple web application for managing users. The application allows you 
 
 ### Backend Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/user-management-app.git
-    cd user-management-app/backend
-    ```
 
-2. Install the backend dependencies:
-    ```bash
-    npm install
-    ```
 
-3. Configure the MongoDB connection:
-    - In the `config/dbConfig.js` file, ensure the MongoDB URI is correctly set up.
 
 4. Start the backend server:
     ```bash
@@ -112,12 +104,12 @@ This is a simple web application for managing users. The application allows you 
 
 - **Create a New User**
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"firstName":"John", "lastName":"Doe", "email":"john@example.com", "password":"12345"}' http://localhost:5000/api/users
+    curl -X POST -H "Content-Type: application/json" -d '{"firstName":"John", "lastName":"Doe", "email":"john@example.com", "password":"12345"}' https://knorex-iota.vercel.app/api/users
     ```
 
 - **Delete a User**
     ```bash
-    curl -X DELETE http://localhost:5000/api/users/1234567890abcdef12345678
+    curl -X DELETE https://knorex-iota.vercel.app/api/users/1234567890abcdef12345678
     ```
 
 ## Frontend Overview
@@ -137,10 +129,6 @@ React's **useState** and **useEffect** hooks are used for managing component sta
 ## Feedback and Contributions
 
 We welcome any feedback or contributions to improve this project. Please feel free to create issues or pull requests.
-
-### Contact
-- **Email**: your-email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
 
 ## License
 
